@@ -5,11 +5,39 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: linear-gradient(to right, #f8cdda, #1f4037);
+    font-family: Arial, sans-serif;
 }
 
-#magicButton {
-    padding: 10px 20px;
-    font-size: 16px;
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#yesButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #218838;
+}
+
+#noButton {
+    background-color: #dc3545;
+    color: white;
     position: absolute;
+}
+
+#noButton:hover {
+    background-color: #c82333;
 }
